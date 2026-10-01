@@ -2,7 +2,7 @@
 void main()
 {
     int num, digit;
-    int max = 0 ,smax;
+    int max = 0;
     printf("Enter any number: ");
     scanf("%d", &num);
 
@@ -15,21 +15,14 @@ void main()
         if (digit > max)
         {
             max = digit;
-
             
         }
         
-        
-        
 
         num = num / 10;    // remove the last digit of the number
+        
     }
-    smax = digit; 
-        if(smax < max){
-
-        }
-    
-    printf("%d is grater\n",max-);  
+    printf("%d is grater\n",max);
     
 }
 
